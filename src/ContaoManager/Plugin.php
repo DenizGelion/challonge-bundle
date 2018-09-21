@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of [challonge-bundle].
+ * This file is part of challonge-bundle.
  *
  * (c) Deniz Gelion
  *

@@ -1,17 +1,17 @@
 <?php
 
 /*
- * This file is part of [package name].
+ * This file is part of challonge-bundle.
  *
- * (c) John Doe
+ * (c) Deniz Gelion
  *
  * @license LGPL-3.0-or-later
  */
 
-namespace Contao\SkeletonBundle;
+namespace Contao\ChallongeBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
-class ContaoSkeletonBundle extends Bundle
+class ContaoChallongeBundle extends Bundle
 {
 }
