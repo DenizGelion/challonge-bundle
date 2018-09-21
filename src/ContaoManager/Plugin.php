@@ -1,20 +1,20 @@
 <?php
 
 /*
- * This file is part of [package name].
+ * This file is part of [challonge-bundle].
  *
- * (c) John Doe
+ * (c) Deniz Gelion
  *
  * @license LGPL-3.0-or-later
  */
 
-namespace Contao\SkeletonBundle\ContaoManager;
+namespace Contao\ChallongeBundle\ContaoManager;
 
 use Contao\CoreBundle\ContaoCoreBundle;
 use Contao\ManagerPlugin\Bundle\BundlePluginInterface;
 use Contao\ManagerPlugin\Bundle\Config\BundleConfig;
 use Contao\ManagerPlugin\Bundle\Parser\ParserInterface;
-use Contao\SkeletonBundle\ContaoSkeletonBundle;
+use Contao\ChallongeBundle\ContaoChallongeBundle;
 
 class Plugin implements BundlePluginInterface
 {
@@ -24,7 +24,7 @@ class Plugin implements BundlePluginInterface
     public function getBundles(ParserInterface $parser)
     {
         return [
-            BundleConfig::create(ContaoSkeletonBundle::class)
+            BundleConfig::create(ContaoChallongeBundle::class)
                 ->setLoadAfter([ContaoCoreBundle::class]),
         ];
     }
