@@ -1,5 +1,5 @@
 {
-    "name": "contao/challonge-bundle",
+    "name": "DenizGelion/challonge-bundle",
     "type": "contao-bundle",
     "description": "Challonge integration for Contao 4",
     "license": "LGPL-3.0-or-later",
