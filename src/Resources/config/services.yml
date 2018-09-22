@@ -9,7 +9,7 @@ services:
                 - ["setContainer", ["@service_container"]]
     
     contao_challonge.navigation_listener:
-        class: Contao\ChallongeBundle\EventListener\NavigationListener
+        class: denizgelion\ChallongeBundle\EventListener\NavigationListener
         arguments:
         - "@request_stack"
         - "@router"

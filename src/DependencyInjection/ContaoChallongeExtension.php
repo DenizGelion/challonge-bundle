@@ -8,7 +8,7 @@
  * @license LGPL-3.0-or-later
  */
 
-namespace Contao\ChallongeBundle\DependencyInjection;
+namespace denizgelion\ChallongeBundle\DependencyInjection;
 
 use Symfony\Component\Config\FileLocator;
 use Symfony\Component\DependencyInjection\ContainerBuilder;

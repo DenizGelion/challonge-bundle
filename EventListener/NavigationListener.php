@@ -1,5 +1,6 @@
 <?php
-namespace Contao\ChallongeBundle\EventListener;
+
+namespace denizgelion\ChallongeBundle\EventListener;
 
 use Symfony\Component\HttpFoundation\RequestStack;
 use Symfony\Component\Routing\RouterInterface;

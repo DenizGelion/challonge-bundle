@@ -8,7 +8,7 @@
  * @license LGPL-3.0-or-later
  */
 
-namespace Contao\ChallongeBundle;
+namespace denizgelion\ChallongeBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 

@@ -8,14 +8,14 @@
  * @license LGPL-3.0-or-later
  */
 
-namespace Contao\ChallongeBundle\ContaoManager;
+namespace denizgelion\ChallongeBundle\ContaoManager;
 
 use Contao\CoreBundle\ContaoCoreBundle;
 use Contao\ManagerPlugin\Bundle\BundlePluginInterface;
 use Contao\ManagerPlugin\Bundle\Config\BundleConfig;
 use Contao\ManagerPlugin\Bundle\Parser\ParserInterface;
 use Contao\ManagerPlugin\Routing\RoutingPluginInterface;
-use Contao\ChallongeBundle\ContaoChallongeBundle;
+use denizgelion\ChallongeBundle\ContaoChallongeBundle;
 use Symfony\Component\Config\Loader\LoaderResolverInterface;
 use Symfony\Component\HttpKernel\KernelInterface;
 
