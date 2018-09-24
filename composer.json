@@ -25,12 +25,12 @@
     },
     "autoload": {
         "psr-4": {
-            "denizgelion\\ChallongeBundle\\": "src"
+            "denizgelion\\ChallongeBundle\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "denizgelion\\ChallongeBundle\\Tests\\": "tests"
+            "denizgelion\\ChallongeBundle\\Tests\\": "tests/"
         }
     },
     "support": {
