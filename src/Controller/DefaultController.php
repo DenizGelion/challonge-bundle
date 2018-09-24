@@ -11,6 +11,6 @@ class DefaultController extends Controller
 	{
 		$this->get('contao.framework')->initialize();
 		
-		return new Response($this->get('twig')->render('@ContaoChallonge/Default/index.html.twig'));
+		return new Response($this->get('twig')->render('@ContaoChallonge/default/index.html.twig'));
 	}
 }
