@@ -25,8 +25,8 @@ class NavigationListener
 				'challonge' => [
 					'label' => 'Challonge integration',
 					'class' => 'navigation challonge',
-					'href'  => $this->router->generate('contao_backend_challonge'),
-					'isActive' => 'contao_backend_challonge' === $request->attributes->get('_route'),
+					'href'  => $this->router->generate('denizgelion_backend_challonge'),
+					'isActive' => 'denizgelion_backend_challonge' === $request->attributes->get('_route'),
 				],
 			],
 			$arrModules['system']['modules']

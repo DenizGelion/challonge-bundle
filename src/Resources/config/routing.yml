@@ -1,4 +1,4 @@
-contao_backend_challonge:
+denizgelion_backend_challonge:
     path: /contao/challonge
     defaults:
            _scope: backend

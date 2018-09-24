@@ -1,5 +1,5 @@
 services:
-    contao_challonge.navigation_listener:
+    denizgelion_challonge.navigation_listener:
         class: denizgelion\ChallongeBundle\EventListener\NavigationListener
         arguments:
         - "@request_stack"
