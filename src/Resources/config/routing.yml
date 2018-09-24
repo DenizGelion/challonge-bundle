@@ -3,4 +3,4 @@ contao_backend_challonge:
     defaults:
            _scope: backend
            _token_check: true
-           _controller: "ContaoChallongeBundle:Default:index"
+           _controller: "ChallongeBundle:Default:index"
