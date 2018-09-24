@@ -25,12 +25,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Contao\\ChallongeBundle\\": "src/"
+            "Contao\\ChallongeBundle\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Contao\\ChallongeBundle\\Tests\\": "tests/"
+            "Contao\\ChallongeBundle\\Tests\\": "tests"
         }
     },
     "support": {
