@@ -21,16 +21,16 @@
         "contao/manager-plugin": "^2.0"
     },
     "extra": {
-        "contao-manager-plugin": "Contao\\ChallongeBundle\\ContaoManager\\Plugin"
+        "contao-manager-plugin": "denizgelion\\ChallongeBundle\\ContaoManager\\Plugin"
     },
     "autoload": {
         "psr-4": {
-            "Contao\\ChallongeBundle\\": "src"
+            "denizgelion\\ChallongeBundle\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Contao\\ChallongeBundle\\Tests\\": "tests"
+            "denizgelion\\ChallongeBundle\\Tests\\": "tests"
         }
     },
     "support": {
