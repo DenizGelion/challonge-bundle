@@ -13,7 +13,7 @@ namespace denizgelion\ChallongeBundle\Tests;
 use denizgelion\ChallongeBundle\ContaoChallongeBundle;
 use PHPUnit\Framework\TestCase;
 
-class ContaoChallongeBundleTest extends TestCase
+class ChallongeBundleTest extends TestCase
 {
     public function testCanBeInstantiated()
     {
