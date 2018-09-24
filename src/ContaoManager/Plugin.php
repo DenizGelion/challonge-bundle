@@ -15,9 +15,9 @@ use Contao\ManagerPlugin\Bundle\BundlePluginInterface;
 use Contao\ManagerPlugin\Bundle\Config\BundleConfig;
 use Contao\ManagerPlugin\Bundle\Parser\ParserInterface;
 use Contao\ManagerPlugin\Routing\RoutingPluginInterface;
-use denizgelion\ChallongeBundle\ContaoChallongeBundle;
 use Symfony\Component\Config\Loader\LoaderResolverInterface;
 use Symfony\Component\HttpKernel\KernelInterface;
+use denizgelion\ChallongeBundle\ContaoChallongeBundle;
 
 class Plugin implements BundlePluginInterface, RoutingPluginInterface
 {
